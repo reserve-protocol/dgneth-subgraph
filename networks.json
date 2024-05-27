@@ -1,8 +1,8 @@
 {
   "mainnet": {
     "dgnETHStaked": {
-      "address": "0x9d4b923ff6fa700358f05fc2f2a931c1e0061b57",
-      "startBlock": 19961656
+      "address": "0xf35b31B941D94B249EaDED041DB1b05b7097fEb6",
+      "startBlock": 16656455
     }
   }
 }
