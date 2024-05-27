@@ -86,6 +86,7 @@ export function handleTransfer(event: TransferEvent): void {
       event.transaction.hash.concatI32(event.logIndex.toI32())
     )
     withdrawEntity.sender = event.params.to
+    withdrawEntity.receiver = event.params.from
     withdrawEntity.owner = event.params.from
     withdrawEntity.assets = assets
     withdrawEntity.shares = event.params.value
