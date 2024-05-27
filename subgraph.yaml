@@ -16,7 +16,6 @@ dataSources:
       apiVersion: 0.0.7
       language: wasm/assemblyscript
       entities:
-        - Approval
         - Deposit
         - RewardDistributionUpdated
         - Transfer
@@ -25,8 +24,6 @@ dataSources:
         - name: dgnETHStaked
           file: ./abis/dgnETHStaked.json
       eventHandlers:
-        - event: Approval(indexed address,indexed address,uint256)
-          handler: handleApproval
         - event: Deposit(indexed address,indexed address,uint256,uint256)
           handler: handleDeposit
         - event: RewardDistributionUpdated(uint256,uint256,uint256)
