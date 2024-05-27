@@ -10,7 +10,7 @@ dataSources:
     source:
       address: "0xf35b31B941D94B249EaDED041DB1b05b7097fEb6"
       abi: dgnETHStaked
-      startBlock: 19961656
+      startBlock: 16656455
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
