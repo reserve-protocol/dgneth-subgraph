@@ -8,7 +8,7 @@ dataSources:
     name: dgnETHStaked
     network: mainnet
     source:
-      address: "0xf35b31B941D94B249EaDED041DB1b05b7097fEb6"
+      address: '0x5BDd1fA233843Bfc034891BE8a6769e58F1e1346'
       abi: dgnETHStaked
       startBlock: 16656455
     mapping:
